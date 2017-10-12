@@ -31,23 +31,23 @@ html {
 }
 
 .polaroid:first-child {
-left: 20%;
-top: 100px;
-transform: rotate(10deg);
-z-index: 1;
+  left: 20%;
+  top: 100px;
+  transform: rotate(10deg);
+  z-index: 1;
 }
 
 .polaroid:nth-child(2) {
-left: 30%;
-top: 150px;
-transform: rotate(5deg);
-z-index: 2000;
+  left: 30%;
+  top: 150px;
+  transform: rotate(5deg);
+  z-index: 2000;
 }
 
 .polaroid:last-child {
-left: 40%;
-top: 100px;
-z-index: 100;
+  left: 40%;
+  top: 100px;
+  z-index: 100;
 }
 
 .polaroid:hover {
