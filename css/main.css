@@ -23,21 +23,37 @@ html {
 .polaroid > figcaption {
   color: #fff;
   text-shadow: 1px 1px 3px #000;
+  left: 50%;
+  transform: translateX(-50%);
   text-align: center;
-  position: relative;
+  position: absolute;
 }
 
 .polaroid:first-child {
-left: 13em;
-top: 5em;
+left: 20%;
+top: 100px;
+transform: rotate(10deg);
+z-index: 2000;
 }
 
 .polaroid:nth-child(2) {
-left: 20em;
-top: 8em;
+left: 30%;
+top: 150px;
+transform: rotate(5deg);
+z-index: 3;
 }
 
 .polaroid:last-child {
-left: 28em;
-top: 5em;
+left: 40%;
+top: 100px;
+z-index: 2;
+}
+
+.polaroid:hover {
+  box-shadow: 4px 16px 24px rgba(0, 0, 0, 0.75);
+}
+
+.polaroid:last-child:hover {
+  transform: rotate(-30deg);
+  z-index: 1000;
 }
